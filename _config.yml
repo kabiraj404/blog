@@ -107,6 +107,12 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 ###modified upto here
 
 # Jekyll 3 now only supports Kramdown for Markdown
