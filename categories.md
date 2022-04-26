@@ -4,13 +4,11 @@ title: Categorized blogs
 permalink: /categories/
 ---
 
-### Here are all the blogs arranged in the different categories: 
 
-Hope you will enjoy it. 
 
-#### If you want to go to the main page, please click on <a class="break-long-url" target="_blank" href="https://kabiraj404.github.io/blog/">HERE</a>  
+#### Here are all the blogs arranged in the different categories. If you want to go to the main page, please click on <a class="break-long-url" target="_blank" href="https://kabiraj404.github.io/blog/">HERE</a>  
 
-### Enjoy 
+<hr>
 
 
 <div id="archives">

@@ -4,12 +4,25 @@ title: About me
 permalink: /about/
 ---
 
-I am just working
+Hellow, how are you doing today.
+I am Kabi Raj Khatiwada
 
-### More Information
+### My Interests
 
-This is all about about yourself.
+a
+b
+c
+d
 
-### Contact me
+### Current works
 
-[email@domain.com](mailto:email@domain.com)
+
+
+
+
+## My CV is available HERE
+
+
+### You can email me at: 
+
+[kabiraj.khatiwada@gmail.com](mailto:kabiraj.khatiwada@gmail.com)
