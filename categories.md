@@ -1,4 +1,3 @@
- 
 ---
 layout: page
 title: Categorized blogs 
@@ -9,11 +8,10 @@ permalink: /categories/
 
 Hope you will enjoy it. 
 
-<div style="background-color:#8ebf42>         
-      <p class="text">
-        If you want to go to the main page, please click on <a class="break-long-url" target="_blank" href="https://kabiraj404.github.io/blog/">HERE</a>  
-       </p>	
-</div>
+#### If you want to go to the main page, please click on <a class="break-long-url" target="_blank" href="https://kabiraj404.github.io/blog/">HERE</a>  
+
+### Enjoy 
+
 
 <div id="archives">
 {% for category in site.categories %}
