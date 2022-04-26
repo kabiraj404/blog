@@ -67,10 +67,10 @@ include:
 
 # Collections
 collections:
-  teaching:
+  tech2:
     output: true
     permalink: /:collection/:path/
-  talks:
+  tech1:
     output: true
     permalink: /:collection/:path/
 
