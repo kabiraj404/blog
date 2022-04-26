@@ -8,7 +8,7 @@ permalink: /categories/
 
 #### Here are all the blogs arranged in the different categories. If you want to go to the main page, please click on <a class="break-long-url" target="_blank" href="https://kabiraj404.github.io/blog/">HERE</a>  
 
-<hr>
+<hr style="width:35%; background-color:LightGoldenRodYellow;">
 
 
 <div id="archives">
