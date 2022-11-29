@@ -4,8 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hellow, how are you doing today.
-I am Kabi Raj Khatiwada
+Hellow, <br> How are you doing today.<br> I am Kabi Raj Khatiwada
 
 ### My Interests
 
@@ -18,13 +17,11 @@ d
 
 ### Current works
 
+Still working on it
+
+### My CV is available [HERE](https://kabiraj404.github.io/CV/)
 
 
-
-
-## My CV is available HERE
-
-
-### You can email me at: 
+### I am happy to receive emails at: 
 
 [kabiraj.khatiwada@gmail.com](mailto:kabiraj.khatiwada@gmail.com)
