@@ -117,6 +117,7 @@ comments:
   receiver: https://{{your-receiver-site}}/api/PostComment}}
 
 
+commenting: open
 #not sure whether it is or not
 defaults:
   -
@@ -125,7 +126,7 @@ defaults:
       type: pages
     values:
       layout: page
-      author: damieng
+      author: kabiraj
       commenting: open
   -
     scope:
@@ -133,5 +134,5 @@ defaults:
       type: posts
     values:
       layout: post
-      author: damieng
+      author: kabiraj
       commenting: open
