@@ -108,3 +108,30 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+emptyArray: []
+
+#Finally you will need to add this end of your _config.yml so sorting and posting work: 
+# taken from https://github.com/damieng/jekyll-blog-comments 
+comments:
+  receiver: https://{{your-receiver-site}}/api/PostComment}}
+
+
+#not sure whether it is or not
+defaults:
+  -
+    scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      author: damieng
+      commenting: open
+  -
+    scope:
+      path: '_posts'
+      type: posts
+    values:
+      layout: post
+      author: damieng
+      commenting: open
