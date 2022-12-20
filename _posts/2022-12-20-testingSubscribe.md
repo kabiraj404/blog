@@ -1,6 +1,6 @@
 ---
 title: 'A travel diary: Test '
-date: 2022-11-28
+date: 2022-12-20
 permalink: /posts/2022/blog4uark/
 categories: [Science]
 #laout: default
