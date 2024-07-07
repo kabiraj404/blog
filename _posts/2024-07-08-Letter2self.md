@@ -9,7 +9,7 @@ laout: post
 
 
 Hi future me, <br>
-Today is 08 July 2024 <br>
+Today is 07 July 2024 <br>
 
 Through this first blog post, I want to self check myself after a year. This is for fun and self assesemnt only. <br> 
 
