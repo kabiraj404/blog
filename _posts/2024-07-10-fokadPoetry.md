@@ -7,38 +7,40 @@ categories: Poetry
 
 
 I know I was being piece of shit <br>
-But what could I have done <br>
-I am sorry for myself that I didn’t see that chainsaw coming <br>
+But what could have I done <br>
+I am sorry for myself that I didn’t see the chainsaw coming <br>
 
 Her acts were more beautiful <br>
 I was happy and thought it would be permanent <br>
 I just wanted more synchronicity among us <br>
-Hoping there is joyous in the future for us to grow together <br>
+Hoping there is joyous in the future <br>
+For us, to grow together <br>
 But I never realized that I was small part of the play <br>
-Fuck me, I should have shouted more in the beginning <br>
-Before it even started <br>
+Fuck me, I should have shouted loud in the beginning <br>
+Before the simulation <br>
 
-I just let the house to be destroyed in front of me <br>
 She was afraid that I would destroy her wings <br>
+But irony is <br>
+I let my house to be destroyed in front of me <br>
 I had assure her that I would let her grow <br>
 I just presented, a little brutal side of myself <br>
-Thinking there is life ahead to enjoy the company <br>
+Thinking there is life ahead, to enjoy the company <br>
 We had communication issue <br>
 But we were trying <br>
 I was trying to understand her body language and she was watching my eyes in detail <br>
 We were struggling <br>
-But we were hopeful that both of us of have a great future ahead of us <br>
+But we were hopeful that both of us of will have a great future ahead<br>
 
 I tried but I failed, failed for a reason? <br>
-I still don’t have answer <br>
-But how long could have I been a puppet <br>
+I still don’t have any answer, any reason <br>
+But how long could I have been a puppet <br>
 How long could she be fearful with me <br>
 I was overthinker <br>
 She was adolescent <br>
 
 I am trying to make myself numb <br>
 To feel nothing <br> 
-But her color and bush still haunt me in the night <br>
+But her color and style still haunt me in the night <br>
 
 I imagined that my mood and her life will glow together <br>
 But fuck me, I became afraid <br>
@@ -55,11 +57,11 @@ Wishing she is here, to hold the hand <br>
 We might have shared joy together <br>
 But I know I am piece of shit <br>
 
-
-![_config.yml]({{ site.baseurl }}/images/she2.jpg)
+Dedidated to her 
+![_config.yml]({{ site.baseurl }}/images/she.jpg)
 (Everyone starts with a hope, we don't know when and how chainsaw will appear)
 
-![_config.yml]({{ site.baseurl }}/images/she.jpg)
+![_config.yml]({{ site.baseurl }}/images/she2.jpg)
 (This beautiful bird was trying to lay eggs in a small bush in front of my apartment)
 
 

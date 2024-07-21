@@ -1,7 +1,7 @@
 ---
 title: 'Letter to future from 2024 '
 date: 2024-07-07
-permalink: /posts/year2024/
+#permalink: /posts
 categories: Letters
 laout: post
 #comment: true
