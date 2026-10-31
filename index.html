@@ -15,10 +15,13 @@ permalink: /
   <div class="posts post-list">
   {% for post in site.posts %}
     <article class="post post-card">
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <small class="post-list-date">{{ post.date | date: "%b %e, %Y" }}</small></h2> 
-      <div class="entry post-excerpt">
-        {{ post.excerpt | strip_html | strip_newlines | truncatewords: 11 }}
+      <!-- <h2> -->
+
+            <small class="post-list-date">{{ post.date | date: "%b %e, %Y" }}</small>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <!-- </h2>  -->
+      <!-- <div class="entry post-excerpt"> -->
+        {{ post.excerpt | strip_html | strip_newlines | truncatewords: 5 }}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </div>
     </article>
