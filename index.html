@@ -12,7 +12,22 @@ permalink: /
     </div>
   </header>
 
-  <div class="post-list">
+  <section class="posts-section">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-item">
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+          {{ post.date | date: "%b %d, %Y" }}
+        </time>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="post-title">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+  <!-- <div class="post-list">
   {% for post in site.posts %}
     <article class="post-card">
       <h2>
@@ -26,4 +41,4 @@ permalink: /
     </article>
   {% endfor %}
   </div>
-</section>
+</section> -->
