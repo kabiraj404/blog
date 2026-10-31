@@ -3,7 +3,7 @@ title: 'Self check -2027'
 date: 2026-07-01
 #permalink: /posts
 categories: Letters
-laout: post
+layout: post
 #comment: true
 ---
 
@@ -36,8 +36,7 @@ mentally:
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-

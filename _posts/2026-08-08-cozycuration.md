@@ -3,7 +3,7 @@ title: 'Cozy curation'
 date: 2026-08-08
 #permalink: /posts
 categories: Tiny_projects
-laout: post
+layout: post
 #comment: true
 ---
 
@@ -29,8 +29,7 @@ I will try to maintain it.
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-

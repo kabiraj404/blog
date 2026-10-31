@@ -3,7 +3,7 @@ title: 'Visitor'
 date: 2026-10-11
 #permalink: /posts
 categories: Personal_monologue
-laout: post
+layout: post
 #comment: true
 ---
 I boarded a community bus near campus, and a woman probably in her late forties caught my attention. <br>
@@ -37,8 +37,7 @@ I kept wondering what story lay between her bright colors and that final, rushed
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-

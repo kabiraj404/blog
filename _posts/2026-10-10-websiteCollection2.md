@@ -3,7 +3,7 @@ title: 'Useless links 2026-10'
 date: 2026-10-01
 #permalink: /posts
 categories: Collection
-laout: post
+layout: post
 #comment: true
 ---
 
@@ -32,8 +32,7 @@ Here is a list of websites I found interesting this month.
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-

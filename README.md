@@ -1,1 +1,1 @@
-Thanks :) 
+Hi, welcome to my blog. 

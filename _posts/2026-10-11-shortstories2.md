@@ -3,7 +3,7 @@ title: 'Touch'
 date: 2026-10-11
 #permalink: /posts
 categories: Personal_monologue
-laout: post
+layout: post
 #comment: true
 ---
 I was waiting for the bus and noticed that a boy was trying to put his arm around a girl's shoulder. As he was half way though her shoulder he suddely stopped. I don’t know what was going through his mind that made him stop, but he lowered his hand. 
@@ -32,8 +32,7 @@ They held each other’s gaze for so long that I started saying in my head, come
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-

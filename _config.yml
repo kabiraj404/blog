@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kabiraj Khatiwada
+name: Kabi Raj Khatiwada
 
 # Short bio or description (displayed in the header)
 description: walking towards science and nature 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://kabiraj404.github.io/images/new_dp.jpg
+avatar: /blog/images/new_dp.jpg
 #https://kabiraj404.github.io/CV/img/new_dp.jpg   
 #
 # Flags below are optional
@@ -26,7 +26,7 @@ footer-links:
   linkedin: 
   pinterest:
   bluesky: kabiraj404.bsky.social 
-  rss: # just type anything here for a working RSS icon
+  rss: true
   twitter: #jekyllrb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -42,13 +42,13 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://kabiraj404.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/blog"
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -64,9 +64,9 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Exclude these files from your production _site
 exclude:
@@ -78,31 +78,12 @@ exclude:
 
 
 
-#cheanges from here 
-
-####modified from here 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-
-# Collections
-collections:
-  tech2:
-    output: true
-    permalink: /:collection/:path/
-  tech1:
-    output: true
-    permalink: /:collection/:path/
-
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-###modified upto here
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
@@ -114,33 +95,6 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-
-emptyArray: []
-
-#Finally you will need to add this end of your _config.yml so sorting and posting work: 
-# taken from https://github.com/damieng/jekyll-blog-comments 
-comments:
-  receiver: https://{{your-receiver-site}}/api/PostComment}}
-
-
-commenting: open
-#not sure whether it is or not
 defaults:
   -
     scope:

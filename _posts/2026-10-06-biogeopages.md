@@ -3,7 +3,7 @@ title: 'Useful papers on ...'
 date: 2026-10-02
 #permalink: /posts
 categories: Collection
-laout: post
+layout: post
 #comment: true
 ---
 
@@ -44,8 +44,7 @@ My addition:
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-

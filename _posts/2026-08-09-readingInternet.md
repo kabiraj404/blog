@@ -3,7 +3,7 @@ title: 'My reading list '
 date: 2026-08-09
 #permalink: /posts
 categories: Tiny_projects
-laout: post
+layout: post
 #comment: true
 ---
 
@@ -28,8 +28,7 @@ This almost complete and updated list of articles I have read on the internet is
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-
