@@ -283,8 +283,7 @@ nav {
   font-weight: 400;
 }
 
-.post-date,
-.post-list-date {
+.post-date {
   font-size: 13px;
   color: var(--text-muted);
 }
@@ -364,79 +363,62 @@ nav {
   }
 }
 
-// Post Listings
+// Post list
+
 .post-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.post-list > .post-card {
-  border: none;
-  border-bottom: 1px solid var(--border-subtle);
-  background: transparent;
+  list-style: none;
+  margin: 0;
   padding: 0;
-  margin-bottom: 0;
-  border-radius: 0;
-
-  .post-list-date {
-    margin: 0;
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  &:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-  }
-
-  h2 {
-    margin: 6px 0 8px;
-    font-size: clamp(24px, 4vw, 30px);
-    line-height: 1.12;
-
-    a {
-      color: var(--text-primary);
-      &:hover { color: var(--accent); }
-    }
-  }
-
-  .post-excerpt {
-    margin: 0;
-    max-width: 62ch;
-    font-size: 16px;
-    line-height: 1.6;
-    color: var(--text-secondary);
-  }
-
-  .read-more {
-    display: inline-block;
-    margin-top: 14px;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: var(--accent);
-
-    &::after {
-      content: "  ->";
-      transition: padding-left 0.15s ease;
-    }
-
-    &:hover {
-      color: var(--accent-hover);
-
-      &::after {
-        padding-left: 3px;
-      }
-    }
-  }
 }
 
-//
-// Archive
-//
+.post-item {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 15px 0;
+  margin: 0;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-date {
+  flex: 0 0 108px;
+  margin: 0;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.post-title {
+  color: var(--text-primary);
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.35;
+  transition: color 0.15s ease;
+}
+
+.post-title:hover,
+.post-title:focus-visible {
+  color: var(--accent-hover);
+}
+
+@include mobile {
+  .post-item {
+    display: block;
+    padding: 14px 0;
+  }
+
+  .post-date {
+    display: block;
+    margin-bottom: 4px;
+  }
+}
 
 //
 // Footer
