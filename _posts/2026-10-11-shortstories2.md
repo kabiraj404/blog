@@ -18,8 +18,6 @@ He looked at her, and their eyes remained locked for a long time.
 
 They held each other’s gaze for so long that I started saying in my head, come on, kiss, kiss!
 
-
-
 <br>
 <br>
 <br>

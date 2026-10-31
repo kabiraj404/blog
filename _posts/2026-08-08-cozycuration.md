@@ -17,6 +17,7 @@ Initially, I searched for mobile RSS reader apps, but I could not find the best 
 Currently, it follows 32 sites, grouped together as data science, periodicals, photogrphy, periodical curated blogs and personal blogs. The slight update from the original rss fork is that it is more minimalist, and there is option to view all the list of the latest article, and a tab showing publiation from all the categories together. I believe it lets us follow our favorite topics and view direct headlines from specific sources.
 <br>
 I will try to maintain it. 
+
 <br>
 <br>
 <br>

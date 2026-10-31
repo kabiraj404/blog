@@ -10,7 +10,7 @@ description: Personal writing on science, nature, and the web
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: kabiraj.khatiwada@gmail.com
+  # email: kabiraj.khatiwada@gmail.com
   github: kabiraj404
   rss: true
 

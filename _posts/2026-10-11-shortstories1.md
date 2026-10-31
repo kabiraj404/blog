@@ -24,7 +24,6 @@ Someone was waiting outside the bus station. They exchanged greetings, as she go
 
 I kept wondering what story lay between her bright colors and that final, rushed but hesitant tap.
 
-
 <br>
 <br>
 <br>
